@@ -1,0 +1,450 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+/* Navbar styling */
+.no-broker-logo{
+    width: 32px;
+}
+.head-no{
+    position: relative;
+    left: -105px;
+   font-size: 24px;
+}
+.head-broker{
+    position: relative;
+    left: -215px;
+   font-size: 24px;
+   font-weight: 450;
+   color: grey;
+}
+.navbar-box{
+   background-color: white;
+   border-color: yellow;
+ box-shadow:0px 2px 2px grey;
+ max-width: 1519px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ opacity: 1;
+ 
+}
+.navbar-box{
+    position: fixed;
+    top: 1px;  
+  
+}
+/* Navbar links & button styling */
+.navbar-menu{
+ text-decoration: none;
+ color: black;
+ font-weight: 200;
+ font-size: medium;
+ position: relative;
+ right: 15px;
+}
+.navbar-LogIn{
+    text-decoration: none;
+ color: black;
+ font-weight: 200;
+ font-size: medium;
+ position: relative;
+ left: 66px;
+}
+.navbar-SignUp{
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    font-size: medium;
+    position: relative;
+    left: 144px;
+}
+.navbar-button{
+  font-size: medium;
+  background-color: #169b6a;
+  color: white;
+  position: relative;
+  left: 225px;
+  border: none;
+}
+.navbar-rent{
+    text-decoration: none;
+    color: black;
+    border: black 1px solid;
+    width: 90px;
+    text-align: center;
+    position: relative;
+    left: 294px;
+}
+.navbar-rent:hover{
+    text-decoration: none;
+    color: black;
+}
+.navbar-booking{
+    text-decoration: none;
+    color: black;
+    border: black 1px solid;
+    width: 90px;
+    text-align: center;
+    position: relative;
+    left: 370px;
+}
+.navbar-booking:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/* Heading main */
+.heading-main{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+    color: grey;
+    line-height: 2;
+}
+
+/* Search Bar */
+.whole-search{
+    text-align: center;
+}
+.searchbar-top-buttons{
+    width: 130px;
+    line-height: 2;
+    border-color: grey;
+    background-color: white;
+    font-weight: 400; 
+    color: grey;
+}
+.button-buy{
+    position: relative;
+    left: 5px;
+}
+.button-commercial{
+    position: relative;
+    right: 5px;
+}
+.search-bar{
+    width: 600px;
+    line-height: 2.5;
+}
+.search-city{
+    width: 130px;
+    line-height: 2.5;
+    background-color: white;
+    border-color: grey;
+    position: relative;
+    left: 5px;
+}
+select{
+    border: none;
+}
+.button-search{
+    width: 130px;
+    line-height: 2.5;
+    color: white;
+    background-color: #fd3752;
+    border-color: grey;
+    position: relative;
+    right: 4px;
+}
+.below-searchbar{
+    position: relative;
+    left: 329px;
+    padding: 20px;
+    width: 860px;
+    text-align: left;
+    border-left: grey solid 1px;
+    border-bottom: grey solid 1px;
+    border-right: grey solid 1px;
+}
+.below-searchbar-button{
+   position: relative;
+   left: 6px;
+   border: grey solid 1px;
+   background-color: white;
+}
+
+/* Use Of Nobroker */
+.use-nobroker{
+    text-align: center;
+    padding-top: 125px;
+}
+.img1-use-nobroker{
+    position: relative;
+    right: 20%;
+    width: 5%;
+}
+.img2-use-nobroker{
+    position: relative;
+    left: 67px;
+    width: 5%;
+}
+.img3-use-nobroker{
+    position: relative;
+    left: 20%;
+    width: 5%;
+}
+.images-use:hover{
+transform: scale(1.2);
+}
+.pay-rent{
+    position: relative;
+    right: 386px;
+    top: 56px;
+}
+.painting{
+    position: relative;
+    right: 47px;
+    top: 56px;
+}
+.rental{
+    position: relative;
+    left: 200px;
+    top: 56px;
+}
+.line-left{
+    width: 35%;
+    position: relative;
+    top: 121px;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border: #fd3752 solid 1px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 92px;
+    right: 215px;
+  }
+  .line-right{
+    width: 35%;
+    position: relative;
+    top: -48px;
+    left: 987px;
+    color: black;
+  }
+  .dot2{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border: #fd3752 solid 1px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    bottom: 93px;
+    left: 495px;
+  }
+.head2{
+    line-height: 2;
+    padding-top: 50px;
+    color: grey;
+}
+.img4-use-nobroker{
+    position: relative;
+    right: 22%;
+}
+.img4-span{
+    position: relative;
+    top: 68px;
+    right: 432px;
+}
+.img5-span{
+    position: relative;
+    top: 66px;
+    right: 119px;
+}
+.img6-use-nobroker{
+    position: relative;
+    left: 258px;
+}
+.img6-span{
+    position: relative;
+    top: 64px;
+    left: 192px;
+}
+
+/* Buisness Assistant */
+.buisness-assistant{
+    margin-top: 10%;
+    margin-bottom: 10%;
+ background-color: #f4f4f4;
+}
+.line3-left{
+    width: 23%;
+    position: relative;
+    top: 156px;
+}
+.dot3{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border: #fd3752 solid 1px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    bottom: -125px;
+    left: 350px;
+}
+.head3{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    line-height: 2;
+    color: grey;
+}
+.line3-right{
+    width: 23%;
+    position: relative ;
+    bottom: 119px;
+    left: 1170px;
+}
+.dot4{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border: #fd3752 solid 1px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    bottom: 148px;
+    left: 1146px;
+}
+.bob-the-builder{
+    padding-bottom: 6%;
+    position: relative ;
+    bottom: 34%;
+    left: 32%;
+}
+.building-para{
+    line-height: 2;
+    font-weight:bold ;
+    color: grey;
+    position: relative;
+    bottom: 32%;
+    left: 2%;
+}
+.enquire-button{
+    background-color: #fd3752;
+    color: white;
+    width: 21%;
+    height: 21%;
+    position: relative;
+    right: 55%;
+}
+
+/* we make a diff */
+.head4-line1{
+    width: 35%;
+    position: relative;
+    top: 40px;
+}
+.head4-dot1{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border: #fd3752 solid 1px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 531px;
+}
+.head4-line2{
+    width: 35%;
+    position: relative;
+    bottom: 21px;
+    left: 987px;
+}
+.head4-dot2{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border: #fd3752 solid 1px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: -50px;
+    left: 963px;
+}
+.head4{
+    text-align: center;
+    margin-top: -88px;
+    margin-bottom: 5%;
+}
+.circle-head-below{
+    padding-top: 3%;
+    padding-bottom: 10%;
+    position: relative;
+    left: 6%;
+}
+.amount{
+    color: #fd3752;
+    width: 50%;
+    position: relative;
+    top: 36%;
+    left: 20%;
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: #fd3752 solid 3px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.amount-span{
+    position: relative;
+    top: 154px;
+    right: 167px;
+    line-height: 2;
+    font-size: large;
+}
+
+/* testimonal */
+.testimonal{
+    background-color: #334a5c;
+    height: 380px;
+    text-align: center;
+}
+.box-ba{
+    text-align: center;
+    background-color: white;
+    width: 25%;
+    height: 50%;
+    display: inline-flex;
+    padding: 3%;
+}
+.testimonal-head{
+    color: white;
+    padding: 3%;
+}
+
+/* sharing options */
+.share{
+    padding-top: 5%;
+}
+.phone-img{
+    position: relative;
+    left: 14%;
+}
+.head-last{
+    color:#fd3752 ;
+    line-height: 2;
+}
+.download-app{
+    font-weight: 600;
+    font-size: larger;
+}
+.download-img{
+    width: 25%;
+    position: relative;
+    top: 21%;
+    right: 26%;
+}
+/* My info */
+.my-info{
+    background-color: #f4f4f4;
+    padding-top:5% ;
+    text-align: center;
+    color:#fd3752;
+}
